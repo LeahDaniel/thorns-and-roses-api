@@ -1,0 +1,189 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "color": "Purple",
+            "species": "Cornflower"
+        },
+        {
+            "id": 2,
+            "color": "Yellow",
+            "species": "Sunflower"
+        },
+        {
+            "id": 3,
+            "color": "White",
+            "species": "Daisy"
+        },
+        {
+            "id": 4,
+            "color": "Red",
+            "species": "Carnation"
+        },
+        {
+            "id": 5,
+            "color": "Orange",
+            "species": "Carnation"
+        },
+        {
+            "id": 6,
+            "color": "Yellow",
+            "species": "Carnation"
+        },
+        {
+            "id": 7,
+            "color": "Red",
+            "species": "Rose"
+        },
+        {
+            "id": 8,
+            "color": "Pink",
+            "species": "Rose"
+        },
+        {
+            "id": 9,
+            "color": "Yellow",
+            "species": "Rose"
+        }
+    ],
+    "nurseryFlowers":[
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1,
+            "flowerPrice": 2.76
+        },
+        {
+            "id": 2,
+            "flowerId": 2,
+            "nurseryId": 1,
+            "flowerPrice": 1.25
+        },
+        {
+            "id": 3,
+            "flowerId": 3,
+            "nurseryId": 1,
+            "flowerPrice": 3.34
+        },
+        {
+            "id": 4,
+            "flowerId": 4,
+            "nurseryId": 1,
+            "flowerPrice": 2.10
+        },
+        {
+            "id": 5,
+            "flowerId": 4,
+            "nurseryId": 2,
+            "flowerPrice": 3.14
+        },
+        {
+            "id": 6,
+            "flowerId": 5,
+            "nurseryId": 2,
+            "flowerPrice": 1.05
+        },
+        {
+            "id": 7,
+            "flowerId": 6,
+            "nurseryId": 2,
+            "flowerPrice": 2.65
+        },
+        {
+            "id": 8,
+            "flowerId": 7,
+            "nurseryId": 3,
+            "flowerPrice": 2.99
+        },
+        {
+            "id": 9,
+            "flowerId": 8,
+            "nurseryId": 3,
+            "flowerPrice": 1.78
+        },
+        {
+            "id": 10,
+            "flowerId": 9,
+            "nurseryId": 3,
+            "flowerPrice": 3.49
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "businessName": "Flower Power"
+        },
+        {
+            "id": 2,
+            "businessName": "Carnation Station"
+        },
+        {
+            "id": 3,
+            "businessName": "Grows the Rose"
+        }
+    ],
+    "nurseryToDistributorChannel": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "nurseryId": 3,
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "businessName": "Middle Men",
+            "markupPercentage": 1.25
+        },
+        {
+            "id": 2,
+            "businessName": "IMD",
+            "markupPercentage": 1.50
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "distributorId": 2,
+            "businessName": "Local Flowers",
+            "markupPercentage": 1.25,
+            "address": "7687 Susanna Lake, Deckowside, TN 71704"
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "businessName": "Kroger",
+            "markupPercentage": 1.40,
+            "address": "1680 Elisha Row, New Norberto, CT 47439"
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "businessName": "Publix",
+            "markupPercentage": 1.50,
+            "address": "1408 Velda Mountains, East Gladys, AL 21973"
+        },
+        {
+            "id": 4,
+            "distributorId": 1,
+            "businessName": "Walmart",
+            "markupPercentage": 1.30,
+            "address": "12871 Hirthe Trail, Lake Claudiahaven, WV 73514"
+        }
+    ]
+}
